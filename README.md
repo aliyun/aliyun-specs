@@ -7,7 +7,7 @@ Aliyun Mobile Service CocoaPods specs.
 - Podfile中指定仓库位置，
 
 ```
-source 'git@github.com:aliyun/aliyun-specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
 ```
 
 - 为工程target添加依赖，例：引入阿里云推送依赖，
