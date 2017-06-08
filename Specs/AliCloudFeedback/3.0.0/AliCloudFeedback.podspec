@@ -2,8 +2,8 @@ Pod::Spec.new do |s|
 
   s.name          = "AliCloudFeedback"
   s.version       = "3.0.0"
-  s.summary       = "闃块噷浜戞剰瑙佸弽棣堝熀纭�鐗團ramework."
-  s.description   = "闃块噷浜戞剰瑙佸弽棣堝熀纭�鐗團ramework. YWFeedbackFMWK"
+  s.summary       = "AlicloudFeedback."
+  s.description   = "Alicloud Feedback. YWFeedbackFMWK"
   s.license       = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author        = { "ElonChan" => "elonchan.cyl@alibaba-inc.com" }
   s.homepage      = "https://www.aliyun.com"
