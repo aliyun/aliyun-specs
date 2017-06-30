@@ -1,5 +1,7 @@
 
 Pod::Spec.new do |s|
+	zip_name = "iot-debug"
+
 	s.platform     =  :ios, '8.0'
 	s.name = 'AKDebugDashboard'
 	s.version  = '0.0.1'
@@ -13,7 +15,8 @@ Pod::Spec.new do |s|
 	}
 	s.authors = {'Wenji'=>'sunliang.lsl@alibaba-inc.com'}
 	s.source  = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-debug/0.0.1/iot-debug.zip" }
-	s.vendored_frameworks = 'iot-debug/*.framework'
+	s.vendored_frameworks = "#{zip_name}/*.framework"
+	s.resources = ["#{zip_name}/**/*.bundle"]
 	                      
 	s.frameworks = 'Foundation'
 	s.requires_arc = true
