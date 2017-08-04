@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
   s.platform     = :ios
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/ut/5.2.0.1.1/ut.zip" }
+  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/ut/5.2.0.1-2/ut.zip" }
   s.libraries    = 'z'
   s.vendored_frameworks = 'ut/UTMini.framework'
   s.dependency "AlicloudUTDID"
