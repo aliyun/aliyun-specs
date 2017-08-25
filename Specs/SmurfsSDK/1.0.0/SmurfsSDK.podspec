@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
 	LICENSE
 	}
 	s.authors = {'jiangjian'=>'jiangjian.jj@alibaba-inc.com'}
-	s.source  = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-ble/1.0.0/iot-ble.zip" }
+	s.source  = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-ble/1.0.1/iot-ble.zip" }
 	s.vendored_frameworks = 'iot-ble/*.framework'
-	                      
+
 	s.frameworks = 'Foundation'
 	s.requires_arc = true
 	s.xcconfig = {	'OTHER_LDFLAGS' => '-ObjC'}
