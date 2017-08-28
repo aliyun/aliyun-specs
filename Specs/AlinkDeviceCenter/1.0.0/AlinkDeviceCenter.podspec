@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 	
 	s.platform     =  :ios, '8.0'
 	s.source = { :http => 'http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-alinkdevicecenter/1.0.0/iot-alinkdevicecenter.zip' }
-	                      
+        s.vendored_frameworks = 'iot-alinkdevicecenter/*.framework'	                      
 
 	s.dependency 'AlinkSDK',	'~> 1.0.1'
 	s.dependency 'AKTBJSONModel'
