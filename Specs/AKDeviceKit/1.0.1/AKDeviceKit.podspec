@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
 	s.xcconfig = {	'OTHER_LDFLAGS' => '-ObjC'}
 
 	#s.dependency 'CocoaAsyncSocket'
-	s.dependency 'AKTBJSONModel'
+	s.dependency 'AKTBJSONModel', '1.0.0'
 end
 
