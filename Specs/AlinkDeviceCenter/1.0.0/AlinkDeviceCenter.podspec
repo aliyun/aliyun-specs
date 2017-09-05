@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
 	s.source = { :http => 'http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-alinkdevicecenter/1.0.0/iot-alinkdevicecenter.zip' }
         s.vendored_frameworks = 'iot-alinkdevicecenter/*.framework'	                      
 
-	s.dependency 'AlinkSDK',	'~> 1.0.1'
-	s.dependency 'AKTBJSONModel'
-    s.dependency 'AKDeviceKit'
-    s.dependency 'AKLog'
-    s.dependency 'AKUserTracker'
-    s.dependency 'AKDevKit'
+	s.dependency 'AlinkSDK', '1.0.1'
+	s.dependency 'AKTBJSONModel', '1.0.0'
+    s.dependency 'AKDeviceKit', '1.0.1'
+    s.dependency 'AKLog', '1.0.1'
+    s.dependency 'AKUserTracker', '1.0.0'
+    s.dependency 'AKDevKit', '0.0.1'
 end
 
