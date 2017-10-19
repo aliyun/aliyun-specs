@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AlicloudLua"
-  s.version      = "1.0.0"
+  s.version      = "5.1.4.2"
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
   s.summary      = "Aliyun Mobile Service Lua iOS SDK."
