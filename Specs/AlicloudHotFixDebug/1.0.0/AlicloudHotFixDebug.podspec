@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = "Aliyun Mobile Service HotFix Debug iOS SDK."
   s.homepage     = "https://www.aliyun.com/product/hotfix"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/ios_hotfix_debug/1.0.0/ios_hotfix_debug.zip" }
+  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/ios_hotfix_debug/1.0.0-1/ios_hotfix_debug.zip" }
   s.vendored_frameworks = "ios_hotfix_debug/*.framework"
 
 end
