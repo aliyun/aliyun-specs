@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author                = { "度尽" => "yongbin.wyb@alibaba-inc.com" }
   s.source                = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_bonekit/1.0.0/ims_bonekit.zip" }
   s.platform     		  = :ios, '8.0'
-  s.vendored_frameworks = 'IMSBoneKit/IMSBoneKit.framework', 'IMSBoneKit/IMSBonePluginKit.framework', 'IMSBoneKit/IMSPackageKit.framework', 'IMSBoneKit/IMSRouterKit.framework', 'IMSBoneKit/IMSAccount.framework'
+  s.vendored_frameworks = 'IMSBoneKit/IMSBoneKit.framework', 'IMSBoneKit/IMSBonePluginKit.framework', 'IMSBoneKit/IMSPackage.framework', 'IMSBoneKit/IMSRouter.framework', 'IMSBoneKit/IMSAccount.framework'
   s.requires_arc = true
   s.frameworks = 'UIKit', 'Foundation'
   s.xcconfig = {
