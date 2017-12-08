@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 	'OTHER_LDFLAGS' => '$(inherited) -lstdc++ -ObjC'
   }
 
-  s.dependency 'IMSApiClient', '~> 1.0.0'
-  s.dependency 'IMSLog' , '~> 1.0.0'
-  s.dependency 'AlicloudUTDID', '~> 1.1.0.16'
+  s.dependency 'IMSApiClient', '1.0.0'
+  s.dependency 'IMSLog' , '1.0.0'
+  s.dependency 'AlicloudUTDID', '1.1.0.16'
 end
