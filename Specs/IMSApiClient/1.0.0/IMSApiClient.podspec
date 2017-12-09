@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
 
-  s.dependency 'AlicloudApiSDK', '~> 1.0.0'
-  s.dependency 'AlicloudSGMain', '~> 5.3.78'
+  s.dependency 'AlicloudApiSDK', '1.0.0'
+  s.dependency 'AlicloudSGMain', '5.3.78'
   
-  s.dependency 'IMSLog' , '~> 1.0.0'
+  s.dependency 'IMSLog' , '1.0.0'
 end
