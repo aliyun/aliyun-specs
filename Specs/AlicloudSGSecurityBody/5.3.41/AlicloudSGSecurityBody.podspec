@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.libraries    	      = "z"
   s.frameworks            = "Foundation", "CoreMotion"
   s.vendored_frameworks = 'SGSecurityBody/SGSecurityBody.framework'
-  s.dependency "AlicloudSGMain", '~> 5.3.78'
-  s.dependency "AlicloudSecurityGuardSDK", '~> 5.3.78'
+  s.dependency "AlicloudSGMain", '5.3.78'
+  s.dependency "AlicloudSecurityGuardSDK", '5.3.78'
 end
