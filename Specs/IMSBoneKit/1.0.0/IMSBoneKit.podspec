@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   }
   s.resources = ['IMSBoneKit/IMSBoneKit.framework/*.{ttf}','IMSBoneKit/IMSBoneKit.framework/*.{nib,png}']
   
-  s.dependency 'IMSBonePluginKit', '~> 1.0.0'
-  s.dependency 'IMSApiClient', '~> 1.0.0'
-  s.dependency 'IMSLog', '~> 1.0.0'
+  s.dependency 'IMSBonePluginKit', '1.0.0'
+  s.dependency 'IMSApiClient', '1.0.0'
+  s.dependency 'IMSLog', '1.0.0'
 end
