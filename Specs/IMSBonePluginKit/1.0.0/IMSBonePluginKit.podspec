@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.xcconfig = {
       "OTHER_LDFLAGS" => '$(inherited) -lstdc++'
   }
+  
 end
