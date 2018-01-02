@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.xcconfig = {  'OTHER_LDFLAGS' => '-ObjC'}
 
-    s.dependency 'AKTBJSONModel', '1.0.0'
-    s.dependency 'AKLog', '1.0.1'
-    s.dependency 'AKUserTracker', '1.0.0'
-    s.dependency 'AKDevKit', '0.0.1'
+    #s.dependency 'AKTBJSONModel', '1.0.0'
+    s.dependency 'AKLog'
+    s.dependency 'AKUserTracker'
+    s.dependency 'AKDevKit'
 
 end
