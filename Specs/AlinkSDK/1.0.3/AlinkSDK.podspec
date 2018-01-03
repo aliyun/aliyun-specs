@@ -15,4 +15,8 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.xcconfig = {  'OTHER_LDFLAGS' => '-ObjC'}
 
+    s.dependency 'AKLog'
+    s.dependency 'AKUserTracker'
+    s.dependency 'AKDevKit'
+
 end
