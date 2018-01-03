@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
     s.dependency 'AKLog'
     #s.dependency 'AKUserTracker'
-    s.dependency 'AKDevKit'
+    #s.dependency 'AKDevKit'
 
 end
