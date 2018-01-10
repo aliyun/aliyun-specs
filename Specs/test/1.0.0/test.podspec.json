@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "platforms": {
+    "ios": null
+  },
+  "summary": "Aliyun Mobile Service UTDID iOS SDK.",
+  "homepage": "https://www.aliyun.com",
+  "authors": {
+    "junmo": "lingkun.lk@alibaba-inc.com"
+  },
+  "source": {
+    "http": "http://ios-repo.oss-cn-shanghai.aliyuncs.com/test/1.0.0/test.zip"
+  },
+  "vendored_frameworks": "utdid/UTDID.framework"
+}
