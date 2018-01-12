@@ -1,0 +1,42 @@
+{
+  "summary": "ZCache Framework",
+  "libraries": [
+    "z"
+  ],
+  "frameworks": [
+    "CoreTelephony",
+    "Security",
+    "SystemConfiguration"
+  ],
+  "documentation_url": "http://h5.alibaba-inc.com/windvane/index.html",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "homepage": "http://gitlab.alibaba-inc.com/ali-wireless-h5/ZCache-iOS",
+  "version": "0.0.1.5",
+  "source_code": {
+    "commit": "e6ff9b8c54fed5286c0bced3e00560a1c3299bcb",
+    "git": "git@gitlab.alibaba-inc.com:ali-wireless-h5/ZCache-iOS.git"
+  },
+  "authors": {
+    "执水": "zhishui.lcq@alibaba-inc.com"
+  },
+  "source": {
+    "http": "http://mtl.alibaba-inc.com/oss/mupp/61363/3077785/3077785/e7ecd1224f64e5d3a1e5046bd9d4a35a/ZCache.library.zip"
+  },
+  "dependencies": {
+    "ZipArchive": []
+  },
+  "description": "ZCache Framework, preload resource into disk to speedup resource load",
+  "name": "ZCache",
+  "source_files": [
+    "ZCache.framework/Headers/*"
+  ],
+  "license": {
+    "text": "Alibaba-INC copyright",
+    "type": "Copyright"
+  },
+  "vendored_frameworks": [
+    "ZCache.framework"
+  ]
+}
