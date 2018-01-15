@@ -1,0 +1,44 @@
+{
+  "libraries": "stdc++",
+  "summary": "WeexSDK Source .",
+  "resources": [
+    "WeexSDK.framework/native-bundle-main.js",
+    "WeexSDK.framework/wx_load_error@3x.png"
+  ],
+  "user_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "'$(PODS_ROOT)/WeexSDK'"
+  },
+  "authors": {
+    "hehe": "eheee@alibaba-inc.com"
+  },
+  "frameworks": [
+    "CoreMedia",
+    "MediaPlayer",
+    "AVFoundation",
+    "AVKit",
+    "JavaScriptCore",
+    "GLKit"
+  ],
+  "platforms": {
+    "ios": "7.0"
+  },
+  "homepage": "https://github.com/alibaba/weex",
+  "version": "0.17.0.1-EMAS",
+  "requires_arc": true,
+  "xcconfig": {
+    "OTHER_LINK_FLAG": "$(inherited) -ObjC"
+  },
+  "source": {
+    "http": "http://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-weexsdk/10.0.0/emas-weexsdk.zip"
+  },
+  "dependencies": {
+    "SocketRocket": []
+  },
+  "description": "WeexSDK Source description",
+  "name": "WeexSDK",
+  "license": {
+    "text": "           Alibaba-INC copyright\n",
+    "type": "Copyright"
+  },
+  "vendored_frameworks": "WeexSDK.framework"
+}
