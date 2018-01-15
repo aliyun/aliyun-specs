@@ -14,6 +14,10 @@
   },
   "homepage": "https://github.com/aliyun/aliyun-specs",
   "version": "10.0.0",
+  "source_code": {
+    "commit": "e6ff9b8c54fed5286c0bced3e00560a1c3299bcb",
+    "git": "git@gitlab.alibaba-inc.com:ali-wireless-h5/ZCache-iOS.git"
+  },
   "authors": {
     "alibaba": "alibaba@alibaba-inc.com"
   },
