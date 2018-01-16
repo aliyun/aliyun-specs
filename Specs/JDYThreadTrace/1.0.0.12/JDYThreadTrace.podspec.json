@@ -1,0 +1,29 @@
+{
+  "summary": "Crash Thread Trace Framework.",
+  "frameworks": "Foundation",
+  "source_files": "JDYThreadTrace.framework/Headers/*",
+  "libraries": "c++",
+  "description": "Crash线程dump库",
+  "resources": [
+    "JDYThreadTrace.framework/Resources/*"
+  ],
+  "source": {
+    "http": "http://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-jdythreadtrace/1.0.0.12/emas-jdythreadtrace.zip"
+  },
+  "version": "1.0.0.12",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "license": {
+    "text": "           Alibaba-INC copyright\n",
+    "type": "Copyright"
+  },
+  "vendored_frameworks": [
+    "JDYThreadTrace.framework"
+  ],
+  "name": "JDYThreadTrace",
+  "authors": {
+    "alibaba": "alibaba@alibaba-inc.com"
+  },
+  "homepage": "https://github.com/aliyun/aliyun-specs"
+}
