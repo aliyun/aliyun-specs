@@ -1,0 +1,21 @@
+{
+  "summary": "修复Release下的NSLog打印问题",
+  "license": "BSD / Apache License, Version 2.0",
+  "source_files": "TBJSONModel.framework/Headers/*",
+  "vendored_frameworks": [
+    "TBJSONModel.framework"
+  ],
+  "name": "TBJSONModel",
+  "description": "TBJSONModel",
+  "source": {
+    "http": "http://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-tbjsonmodel/0.1.15/emas-tbjsonmodel.zip"
+  },
+  "version": "0.1.15",
+  "authors": {
+    "alibaba": "alibaba@alibaba-inc.com"
+  },
+  "homepage": "https://github.com/aliyun/aliyun-specs",
+  "platforms": {
+    "ios": "6.0"
+  }
+}
