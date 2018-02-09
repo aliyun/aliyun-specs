@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.dependency 'IMSBonePluginKit', '1.1.0'
   s.dependency 'IMSApiClient', '1.1.0'
   s.dependency 'IMSLog', '1.0.1'
+  s.dependency 'IMSAccount', '1.1.0'
 end
