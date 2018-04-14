@@ -9,7 +9,6 @@ Pod::Spec.new do |s|
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
   s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/utils/1.3.2/utils.zip" }
   s.vendored_frameworks = "utils/AlicloudUtils.framework"
-  s.dependency   "AlicloudUT"
   s.dependency   "AlicloudUTDID"
 
 end
