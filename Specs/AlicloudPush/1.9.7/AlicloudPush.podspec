@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/push/1.9.7/push.zip" }
   s.vendored_frameworks = 'push/CloudPushSDK.framework'
   s.dependency   "AlicloudUtils"
-
+  s.dependency   "AlicloudUT"
 end
