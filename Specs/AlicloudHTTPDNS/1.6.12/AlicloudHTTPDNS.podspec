@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.library = 'sqlite3.0'
   s.xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC -lz' }
   s.dependency "AlicloudUtils"
+  s.dependency "AlicloudUT"
   s.dependency "AlicloudBeacon"
 end
