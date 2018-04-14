@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/man/1.0.13/man.zip" }
   s.vendored_frameworks = 'man/*.framework'
-  s.dependency "AlicloudUtils"
+  s.dependency  "AlicloudUtils"
+  s.dependency  "AlicloudUT"
   s.libraries    = "sqlite3", 'z'
   s.frameworks   = "CoreTelephony", "SystemConfiguration"
 end
