@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.resources	  = 'feedback/YWFeedbackBundle.bundle'
 
   s.dependency "AlicloudUtils"
+  s.dependency "AlicloudUT"
 
 end
