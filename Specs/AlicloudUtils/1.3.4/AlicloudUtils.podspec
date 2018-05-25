@@ -8,6 +8,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
   s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/utils/1.3.4/utils.zip" }
+  s.frameworks   = [ "CoreTelephony", "SystemConfiguration" ]
+  s.libraries    = 'resolv'
   s.vendored_frameworks = "utils/AlicloudUtils.framework"
   s.xcconfig     = {	'OTHER_LDFLAGS' => '-ObjC'}
   s.dependency   "AlicloudUTDID"
