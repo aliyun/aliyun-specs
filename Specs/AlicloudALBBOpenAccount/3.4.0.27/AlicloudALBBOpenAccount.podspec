@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                  = "AlicloudALBBOpenAccount"
   s.homepage              = "https://www.aliyun.com/"
-  s.source                = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/openaccount/3.4.0.26/openaccount.zip" }
+  s.source                = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/openaccount/3.4.0.27/openaccount.zip" }
   s.version               = "3.4.0.27"
   s.summary               = "ALBBOpenAccount"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
@@ -16,5 +16,4 @@ Pod::Spec.new do |s|
   s.dependency  'AlicloudSecurityGuardSDK', '5.3.78'
   s.dependency  'AlicloudSGSecurityBody', '5.3.41'
   s.dependency  'AlicloudSGMain', '5.3.78'
-  
 end
