@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
   s.dependency  'AlicloudSecurityGuardSDK', '5.3.78'
   s.dependency  'AlicloudSGSecurityBody', '5.3.41'
   s.dependency  'AlicloudSGMain', '5.3.78'
+  
 end
