@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   }
 
   s.dependency 'IMSApiClient', '1.2.0'
-  s.dependency 'IMSLog' , '1.0.1'
-  s.dependency 'AlicloudUTDID', '1.1.0.16'
+  s.dependency 'IMSLog' , '1.0.1' 
+  s.dependency 'AlicloudUTDID', '1.1.0.16' 
 end
