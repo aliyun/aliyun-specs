@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 	LICENSE
 	}
 	s.authors = {'Difeng'=>'difeng.zyl@alibaba-inc.com'}
-	s.source  = { :http => 'http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-devicekit/1.0.2/iot-devicekit.zip' }
+	s.source  = { :http => 'https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-devicekit/1.0.2/iot-devicekit.zip' }
 	s.vendored_frameworks = 'iot-devicekit/*.framework'
 	                      
 	s.frameworks = 'Foundation'

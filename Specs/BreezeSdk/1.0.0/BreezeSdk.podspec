@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 	s.description = 'BreezeSDK'
 	s.homepage = "http://gitlab.alibaba-inc.com/IOTLinkSDK/#{reponame}"
 	s.authors = {'纪昂' => 'jiangjian.jj@alibaba-inc.com'}
-	s.source = {:http => 'http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-linksdk-breeze/1.0.0/iot-linksdk-breeze.zip'}
+	s.source = {:http => 'https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-linksdk-breeze/1.0.0/iot-linksdk-breeze.zip'}
 	s.vendored_frameworks = 'iot-linksdk-breeze/*.framework'
 	                      
 	s.frameworks = 'Foundation'

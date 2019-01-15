@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 	s.authors = {'difeng'=>'difeng.zyl@alibaba-inc.com'}
 	
 	s.platform     =  :ios, '8.0'
-	s.source = { :http => 'http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-otabusinesssdk/1.0.0/iot-otabusinesssdk.zip' }
+	s.source = { :http => 'https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-otabusinesssdk/1.0.0/iot-otabusinesssdk.zip' }
         s.vendored_frameworks = 'iot-otabusinesssdk/*.framework'	                      
 
 	s.dependency 'AKTBJSONModel', '1.0.0'

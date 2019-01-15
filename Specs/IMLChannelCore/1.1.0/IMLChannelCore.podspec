@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 	LICENSE
 	}
 	s.authors = {'Difeng'=>'difeng.zyl@alibaba-inc.com'}
-	s.source  = { :http => 'http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-mobichannelcore/1.1.0/iot-mobichannelcore.zip' }
+	s.source  = { :http => 'https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-mobichannelcore/1.1.0/iot-mobichannelcore.zip' }
 	s.vendored_frameworks = 'iot-mobichannelcore/*.framework'
 	                      
         s.resources = ["iot-mobichannelcore/AlinkIoTExpress.framework/*.bundle"]
