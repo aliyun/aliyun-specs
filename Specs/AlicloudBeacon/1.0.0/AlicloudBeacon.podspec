@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "difeng" => "elonchan.cyl@alibaba-inc.com" }
   s.platform     = :ios
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/beacon/1.0.0/beacon.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/beacon/1.0.0/beacon.zip" }
   s.vendored_frameworks = 'beacon/AlicloudBeacon.framework'
   s.dependency "AlicloudUTDID"
 

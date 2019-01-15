@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 	LICENSE
 	}
 	s.authors = {'Wenji'=>'sunliang.lsl@alibaba-inc.com'}
-	s.source = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-bonekit/1.0.4/iot-bonekit.zip" }
+	s.source = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-bonekit/1.0.4/iot-bonekit.zip" }
 	s.vendored_frameworks = "#{zip_name}/*.framework"
 	s.resources = ["#{zip_name}/**/*.ttf", "#{zip_name}/**/*.nib", "#{zip_name}/**/*.png", "#{zip_name}/**/*.bundle"]
 

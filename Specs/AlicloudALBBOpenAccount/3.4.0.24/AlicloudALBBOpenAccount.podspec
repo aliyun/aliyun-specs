@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name                  = "AlicloudALBBOpenAccount"
   s.homepage              = "https://www.aliyun.com/"
-  s.source                = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/openaccount/3.4.0.24/openaccount.zip" }
+  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/openaccount/3.4.0.24/openaccount.zip" }
   s.version               = "3.4.0.24"
   s.summary               = "ALBBOpenAccount"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }

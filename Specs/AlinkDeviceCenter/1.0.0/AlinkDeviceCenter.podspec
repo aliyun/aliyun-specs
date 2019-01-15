@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.description  = 'SDS IoT AlinkDeviceCenter'
     s.homepage     = "http://gitlab.alibaba-inc.com/IOTLinkSDK/AlinkDeviceCenter"
     s.authors            = {'其秀' => 'xiuqi.wxq@alibaba-inc.com'}
-    s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-alinkdevicecenter/1.0.0/iot-alinkdevicecenter.zip" }
+    s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-alinkdevicecenter/1.0.0/iot-alinkdevicecenter.zip" }
     s.vendored_frameworks = 'AlinkDeviceCenter/AlinkDeviceCenter.framework'
     
     s.frameworks = 'Foundation'

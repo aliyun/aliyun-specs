@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://www.aliyun.com/"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "狄锋" => "difeng.zyl@alibaba-inc.com" }
-  s.source                = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_device_gateway/1.1.0/ims_device_gateway.zip" }
+  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_device_gateway/1.1.0/ims_device_gateway.zip" }
   s.platform              = :ios, '8.0'
   s.vendored_frameworks = 'IMSDeviceGateway/AlinkMobileGateway.framework'
   

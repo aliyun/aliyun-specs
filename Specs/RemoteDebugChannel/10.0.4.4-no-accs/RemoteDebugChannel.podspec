@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "RemoteDebugChannel SDK for iOS."
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-remotedebugchannel/10.0.4.4-no-accs/emas-remotedebugchannel.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-remotedebugchannel/10.0.4.4-no-accs/emas-remotedebugchannel.zip" }
   s.vendored_frameworks = 'emas-remotedebugchannel/RemoteDebugChannel.framework'
   s.dependency   "AliHAProtocol", '>=10.0.0.3'
   s.dependency   "AliHASecurity"

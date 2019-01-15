@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "UserTrack SDK for iOS."
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-usertrack/6.3.5.100005-poc/emas-usertrack.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-usertrack/6.3.5.100005-poc/emas-usertrack.zip" }
   s.vendored_frameworks = 'emas-usertrack/UT.framework'
   s.dependency   "AlicloudUTDID", '=1.1.0.16'
   s.dependency   "FMDB"

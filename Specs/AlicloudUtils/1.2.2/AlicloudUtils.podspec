@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = "Aliyun Mobile Service tools."
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/utils/1.2.2/utils.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/utils/1.2.2/utils.zip" }
   s.vendored_frameworks = "utils/AlicloudUtils.framework"
   s.dependency   "AlicloudUT"
   s.dependency   "AlicloudUTDID"

@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 	LICENSE
 	}
 	s.authors = {'luke'=>'luke.lkj@taobao.com'}
-	s.source  = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-sdk-jsonmodel/1.0.0/iot-sdk-jsonmodel.zip" }
+	s.source  = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-sdk-jsonmodel/1.0.0/iot-sdk-jsonmodel.zip" }
 	s.vendored_frameworks = 'iot-sdk-jsonmodel/*.framework'
 	                      
 	s.frameworks = 'Foundation'

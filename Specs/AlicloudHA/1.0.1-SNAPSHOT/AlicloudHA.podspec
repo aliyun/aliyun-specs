@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "Aliyun Mobile HA SDK for iOS."
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/ha_crash_analysis/1.0.1-SNAPSHOT/ha_crash_analysis.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ha_crash_analysis/1.0.1-SNAPSHOT/ha_crash_analysis.zip" }
   s.vendored_frameworks = 'ha_crash_analysis/AliHAAdapter4Cloud.framework'
   s.dependency   "AliHAMemoryMonitor", '=10.0.3'
   s.dependency   "TBCrashReporter", '=10.0.3'

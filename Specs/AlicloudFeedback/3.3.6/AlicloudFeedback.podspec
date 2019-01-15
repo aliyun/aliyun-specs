@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license       = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author        = { "ElonChan" => "elonchan.cyl@alibaba-inc.com" }
   s.homepage      = "https://www.aliyun.com"
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/feedback/3.3.6/feedback.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/feedback/3.3.6/feedback.zip" }
   s.ios.deployment_target = '7.0'
   s.requires_arc  = true
   s.frameworks    = [ "CoreTelephony", "SystemConfiguration", "CoreMotion" ]

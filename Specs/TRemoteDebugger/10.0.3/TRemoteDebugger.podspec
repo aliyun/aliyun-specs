@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "TRemoteDebugger SDK for iOS."
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-tremotedebugger/10.0.3/emas-tremotedebugger.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-tremotedebugger/10.0.3/emas-tremotedebugger.zip" }
   s.vendored_frameworks = 'emas-tremotedebugger/TRemoteDebugger.framework'
   s.dependency   "AliHALogEngine", '>=1.0.2.10'
   s.dependency   "AliHAMethodTrace", '>=1.0.1.2'

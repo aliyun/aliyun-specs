@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 	LICENSE
 	}
 	s.authors = {'Wenji'=>'sunliang.lsl@alibaba-inc.com'}
-	s.source  = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-alinksdk/1.0.2/iot-alinksdk.zip" }
+	s.source  = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-alinksdk/1.0.2/iot-alinksdk.zip" }
 	s.vendored_frameworks = 'iot-alinksdk/*.framework'
 
 	s.frameworks = 'Foundation'

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://www.aliyun.com/"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "纪昂" => "jiangjian.jj@alibaba-inc.com" }
-  s.source                = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_breeze_sdk/1.4.0/ims_breeze_sdk.zip" }
+  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_breeze_sdk/1.4.0/ims_breeze_sdk.zip" }
   s.platform              = :ios, '8.0'
   s.vendored_frameworks = 'IMSBreezeSDK/BreezeSdk.framework','IMSBreezeSDK/BreezeBizSDK.framework'
   s.frameworks = 'Foundation'

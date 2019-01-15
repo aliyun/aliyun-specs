@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "TBJSONModel SDK for iOS."
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-tbjsonmodel/0.1.15/emas-tbjsonmodel.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-tbjsonmodel/0.1.15/emas-tbjsonmodel.zip" }
   s.vendored_frameworks = 'emas-tbjsonmodel/TBJSONModel.framework'
 
 end

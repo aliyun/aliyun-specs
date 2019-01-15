@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = "Aliyun Mobile Service Accelerate iOS SDK."
   s.homepage     = "https://www.aliyun.com/product/mac"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/mac_v2/1.0.0/mac_v2.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/mac_v2/1.0.0/mac_v2.zip" }
   s.vendored_frameworks = "mac_v2/*.framework"
   s.dependency   "AlicloudUtils"
 

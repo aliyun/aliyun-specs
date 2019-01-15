@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.description  = 'WsfChannelSDK'
     s.homepage     = "http://gitlab.alibaba-inc.com/IOTLinkSDK/#{reponame}"
     s.authors            = {'其秀' => 'xiuqi.wxq@alibaba-inc.com'}
-    s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-linksdk-wsfchannel/1.0.1/iot-linksdk-wsfchannel.zip" }
+    s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-linksdk-wsfchannel/1.0.1/iot-linksdk-wsfchannel.zip" }
     s.vendored_frameworks = 'WsfChannel/WsfChannel.framework'
     
     s.frameworks = 'Foundation'

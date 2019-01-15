@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://www.aliyun.com/"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "逸尘" => "yichen.lfz@taobao.com" }
-  s.source                = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/security_guard/5.3.78/security_guard.zip" }
+  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/security_guard/5.3.78/security_guard.zip" }
   s.platform     		  = :ios
   s.vendored_frameworks = 'SecurityGuardSDK/SecurityGuardSDK.framework'
 end

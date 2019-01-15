@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.aliyun.com/product/man"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
   s.platform     = :ios
-  s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/man/1.0.13/man.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/man/1.0.13/man.zip" }
   s.vendored_frameworks = 'man/*.framework'
   s.dependency  "AlicloudUtils"
   s.dependency  "AlicloudUT"

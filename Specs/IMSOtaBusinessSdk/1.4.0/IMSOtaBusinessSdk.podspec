@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://www.aliyun.com/"
     s.license      = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
     s.author       = {'其秀' => 'xiuqi.wxq@alibaba-inc.com'}
-    s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_ota_business_sdk/1.4.0/ims_ota_business_sdk.zip" }
+    s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_ota_business_sdk/1.4.0/ims_ota_business_sdk.zip" }
     s.vendored_frameworks = 'IMSOtaBusinessSdk/OtaBusinessSdk.framework'
     
     s.frameworks = 'Foundation'

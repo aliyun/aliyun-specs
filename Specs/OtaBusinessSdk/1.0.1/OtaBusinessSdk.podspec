@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.description  = 'SDS IoT OtaBusinessSdk'
     s.homepage     = "http://gitlab.alibaba-inc.com/IOTLinkSDK/ota-business-ios"
     s.authors            = {'其秀' => 'xiuqi.wxq@alibaba-inc.com'}
-    s.source       = { :http => "http://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-otabusinesssdk/1.0.1/iot-otabusinesssdk.zip" }
+    s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-otabusinesssdk/1.0.1/iot-otabusinesssdk.zip" }
     s.vendored_frameworks = 'OtaBusinessSdk/OtaBusinessSdk.framework'
     
     s.frameworks = 'Foundation'
