@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "木大" => "jianhuaqiao.qjh@alibaba-inc.com" }
   s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_log/1.0.2/ims_log.zip" }
-  s.platform     		  = :ios, '9.0'
+  s.platform     		  = :ios, '8.0'
   s.vendored_frameworks = 'IMSLog/IMSLog.framework'
 end
