@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   
-  s.dependency 'IMLCoapBase', '1.6.1'
+  s.dependency 'IMLCoapBase', '1.4.0'
   s.dependency 'LinkNetworkSDK', '1.0.0'
   s.dependency 'AKTBJSONModel', '1.0.0'
   s.dependency 'IMSBonePluginKit', '1.1.0'
