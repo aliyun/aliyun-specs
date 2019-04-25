@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.dependency 'IMSLog' , '1.0.3'
   s.dependency 'AKTBJSONModel', '1.0.0'
   s.dependency 'IMSBonePluginKit', '1.1.0'
-  s.dependency 'IMSMobileChannel', '1.6.1'
+  s.dependency 'IMSMobileChannel', '1.6.2'
   s.dependency 'AlicloudSGMain', '5.3.78' #新增安全保镖依赖
   s.dependency 'IMLCoapBase', '1.6.2' # 本地通信通道
-  s.dependency 'IMSDeviceGateway', '1.6.1' # 本地通信通道
+  s.dependency 'IMSDeviceGateway', '1.6.2' # 本地通信通道
   
 end
