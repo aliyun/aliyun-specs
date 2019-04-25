@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'IMSLog' , '1.0.3'
   s.dependency 'IMSApiClient', '1.4.0'
   s.dependency 'LinkNetworkSDK', '1.0.2'
-  s.dependency 'IMSDeviceGateway', '1.6.1'
+  s.dependency 'IMSDeviceGateway', '1.6.2'
 end
