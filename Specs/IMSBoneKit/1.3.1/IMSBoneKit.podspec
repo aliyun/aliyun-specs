@@ -22,4 +22,5 @@ Pod::Spec.new do |s|
   s.dependency 'IMSLog', '1.0.3'
   s.dependency 'IMSAccount', '1.2.1'
   s.dependency 'IMSRouter', '1.2.6'
+  
 end
