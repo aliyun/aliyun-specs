@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.dependency   "RemoteDebugChannel", '=10.0.4.4-no-accs'
   s.dependency   "TBRest", '=10.1.0.1'
   s.dependency   "TRemoteDebugger", '=10.0.3'
+  s.dependency   "AlicloudUTDID"
 
 end
