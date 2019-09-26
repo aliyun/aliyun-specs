@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'} 
 
-  s.dependency 'IMSApiClient', '1.5.4'
-  s.dependency 'IMSAuthentication', '1.4.0'
-  s.dependency 'IMSLog', '1.0.4'
+  s.dependency 'IMSApiClient', '~> 1.6.0'
+  s.dependency 'IMSAuthentication', '~> 1.4.1'
+  s.dependency 'IMSLog', '~> 1.0.4'
 #  s.dependency 'CocoaAsyncSocket'
 end
