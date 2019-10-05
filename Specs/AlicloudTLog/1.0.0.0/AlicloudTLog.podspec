@@ -8,5 +8,12 @@ Pod::Spec.new do |s|
   s.author           = { 'xiangji' => 'xiangji.bxj@alibaba-inc.com' }
   s.source           = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-alicloudtlog/1.0.0.0/emas-alicloudtlog.zip" }
   s.vendored_frameworks = "emas-alicloudtlog/AlicloudTLog.framework"
-
+  s.dependency  'AliHACore'
+  s.dependency  'AliHAProtocol'
+  s.dependency  'TBRest'
+  s.dependency  'AliHASecurity'
+  s.dependency  'TRemoteDebugger'
+  s.dependency  'RemoteDebugChannel'
+  s.dependency  'AlicloudUtils'
+  s.dependency  'AlicloudHAUtil'
 end
