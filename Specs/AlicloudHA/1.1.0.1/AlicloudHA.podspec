@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.dependency   "AliHAProtocol", '=10.0.3'
   s.dependency   "AliHASecurity", '>10.0.3'
   s.dependency   "BizErrorReporter4iOS", '=10.0.3'
-  s.dependency   "RemoteDebugChannel", '=10.0.4.4-no-accs'
-  s.dependency   "TBRest", '=10.1.0.1'
+  s.dependency   "RemoteDebugChannel", '~>10.0.4'
+  s.dependency   "TBRest", '~>10.1.0'
   s.dependency   "TRemoteDebugger", '~>10.0.3'
   s.dependency   "AlicloudUTDID"
 
