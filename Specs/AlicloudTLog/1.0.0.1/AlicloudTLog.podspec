@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.summary          = 'Aliyun Mobile Service TLog iOS SDK.'
   s.homepage         = 'https://www.aliyun.com'
   s.author           = { 'xiangji' => 'xiangji.bxj@alibaba-inc.com' }
-  s.source           = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-alicloudtlog/1.0.0.1/emas-alicloudtlog.zip" }
-  s.vendored_frameworks = "emas-alicloudtlog/AlicloudTLog.framework"
+  s.source           = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ha_tlog/1.0.0.1/ha_tlog.zip" }
+  s.vendored_frameworks = "ha_tlog/AlicloudTLog.framework"
   s.dependency  'AliHACore',  '~> 10.0.3'
   s.dependency  'AliHAProtocol',  '~> 10.0.3'
   s.dependency  'TBRest',  '~> 10.1.1'
