@@ -13,5 +13,4 @@ Pod::Spec.new do |s|
   s.libraries    = 'resolv'
   s.xcconfig     = {	'OTHER_LDFLAGS' => '-ObjC'}
   s.dependency   "AlicloudUTDID"
-  s.dependency   "AlicloudUT"
 end
