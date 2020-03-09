@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
   s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-usertrack/6.3.5.100005-poc/emas-usertrack.zip" }
   s.vendored_frameworks = 'emas-usertrack/UT.framework'
-  s.dependency   "AlicloudUTDID", '=1.1.0.16'
+  s.dependency   "AlicloudUTDID"
   s.dependency   "FMDB"
   s.dependency   "Reachability"
   s.dependency   "TBRest"
