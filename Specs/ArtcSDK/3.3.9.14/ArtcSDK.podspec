@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
 
 #		ARTC_TMALL_GENIE
 		s.dependency  'ArtcMediaEngine'
-		s.dependency 'IotLinkKit', '1.2.1'
+		s.dependency 'IotLinkKit', '1.2.2'
 		s.dependency 'AlicloudTLog', '1.0.0.2'
 		s.dependency 'TRemoteDebugger', '10.0.6.3'
 		s.dependency 'AliHACore', '10.0.3'
