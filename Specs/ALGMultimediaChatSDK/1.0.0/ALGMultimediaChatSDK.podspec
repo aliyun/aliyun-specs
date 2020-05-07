@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   # dependency
   s.frameworks = 'Foundation'
-  s.dependency 'IotLinkKit', '1.2.1'
+  s.dependency 'IotLinkKit', '1.2.2'
   s.dependency 'AlicloudTLog', '1.0.0.2'
   s.dependency 'TRemoteDebugger', '10.0.6.3'
   s.dependency 'AliHACore', '10.0.3'
@@ -35,8 +35,8 @@ Pod::Spec.new do |s|
   s.dependency 'RemoteDebugChannel', '10.0.4.5'
   s.dependency 'TBRest', '10.1.1.0'
   s.dependency 'AlicloudUtils', '1.3.7-noUTDID'
-  s.dependency 'ArtcSDK', '3.3.9.12'
-  s.dependency 'ArtcMediaEngine', '3.3.9.12'
+  s.dependency 'ArtcSDK', '3.3.9.14'
+  s.dependency 'ArtcMediaEngine', '3.3.9.14'
   s.dependency 'AliHALogEngine', '10.0.5'
   #s.dependency 'AlicloudUT', '5.2.0.12'
 
