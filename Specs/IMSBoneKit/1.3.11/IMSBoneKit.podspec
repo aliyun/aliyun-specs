@@ -13,8 +13,10 @@ Pod::Spec.new do |s|
   s.xcconfig = {
       "OTHER_LDFLAGS" => '$(inherited) -lstdc++'
   }
-  s.resources = ['IMSBoneKit/IMSBoneKit.framework/*/*.{lproj,ttf,png}']
-  
+  s.resource_bundles = {
+      "BoneKit" => ["IMSBoneKit/IMSBoneKit.framework/**/*.{xib,xcassets,json,lproj}",
+      "IMSBoneKit/IMSBoneKit.framework/**/BoneKit.bundle/*.png"]
+  }
   s.dependency 'IMSBoneServicePluginKit', '~> 1.0.0'
   s.dependency 'IMSBoneServiceCore', '~> 1.1.4'
   s.dependency 'IMSApiClient', '~> 1.6.1'
