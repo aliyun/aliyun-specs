@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   # source info
-  s.source = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/tmjlchat/1.0.2/tmjlchat.zip" } 
+  s.source = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/tmjlchat/1.0.3/tmjlchat.zip" } 
   
   s.vendored_frameworks = "tmjlchat/ALGMultimediaChatSDK.framework"
 
