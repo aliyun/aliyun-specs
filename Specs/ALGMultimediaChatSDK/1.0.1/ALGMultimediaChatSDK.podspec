@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   # source info
-  s.source = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/tmjlchat/1.0.1/tmjlchat.zip" } 
+  s.source = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/tmjlchat/1.0.2/tmjlchat.zip" } 
   
   s.vendored_frameworks = "tmjlchat/ALGMultimediaChatSDK.framework"
 
@@ -35,8 +35,8 @@ Pod::Spec.new do |s|
   s.dependency 'RemoteDebugChannel', '10.0.4.5'
   s.dependency 'TBRest', '10.1.1.0'
   s.dependency 'AlicloudUtils', '1.3.7-noUTDID'
-  s.dependency 'ArtcSDK', '3.3.9.14'
-  s.dependency 'ArtcMediaEngine', '3.3.9.14'
+  s.dependency 'ArtcSDK', '3.3.9.15'
+  s.dependency 'ArtcMediaEngine', '3.3.9.15'
   s.dependency 'AliHALogEngine', '10.0.5'
   #s.dependency 'AlicloudUT', '5.2.0.12'
 
