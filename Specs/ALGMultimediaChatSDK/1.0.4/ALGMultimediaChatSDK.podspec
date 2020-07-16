@@ -35,8 +35,8 @@ Pod::Spec.new do |s|
   s.dependency 'RemoteDebugChannel', '10.0.4.5'
   s.dependency 'TBRest', '10.1.1.0'
   s.dependency 'AlicloudUtils', '1.3.7-noUTDID'
-  s.dependency 'ArtcSDK', '3.3.9.15'
-  s.dependency 'ArtcMediaEngine', '3.3.9.15'
+  s.dependency 'ArtcSDK', '3.3.9.16'
+  s.dependency 'ArtcMediaEngine', '3.3.9.16'
   s.dependency 'AliHALogEngine', '10.0.5'
   #s.dependency 'AlicloudUT', '5.2.0.12'
 
