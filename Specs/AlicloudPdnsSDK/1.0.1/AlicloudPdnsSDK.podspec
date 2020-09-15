@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author                = { "王志飞" => "wb-wzf617484@alibaba-inc.com" }
   s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/pdnsdk/1.0.1/pdnsdk.zip" }
   s.platform              = :ios, '9.0'
-  s.vendored_frameworks = 'pdnsdk/AlicloudPdnsSDK.framework'
+  s.vendored_frameworks = 'pdnsdk/pdns-sdk-ios.framework'
   s.frameworks = 'Foundation'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
 
