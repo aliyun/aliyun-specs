@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source           = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-networkmonitor/1.0.0/emas-networkmonitor.zip" }
   s.vendored_frameworks = "emas-networkmonitor/AliCloudNetworkMonitor.framework"
   s.dependency  'JDYThreadTrace'
-  s.dependency  'EMASRest'
+  s.dependency  'EMASRest', '>= 11.1.1.1'
   s.dependency  'AliHAProtocol'
   s.dependency  'AlicloudUtils'
   s.dependency  'AliHASecurity'
