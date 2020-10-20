@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "emas-common-analytics/AlicloudCommonAnalytics.framework"
   s.frameworks = ["SystemConfiguration", "CoreTelephony", "Foundation"]
   s.dependency  'AlicloudUTDID'
-  s.dependency  'EMASRest'
+  s.dependency  'EMASRest', '>= 11.1.1.1'
 
 end
