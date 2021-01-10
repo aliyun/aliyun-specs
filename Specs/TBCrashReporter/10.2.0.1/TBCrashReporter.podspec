@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "TBCrashReporter SDK for iOS."
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "xiangji" => "xiangji.bxj@alibaba-inc.com" }
-  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-tbcrashreporter/10.1.0.1/emas-tbcrashreporter.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-tbcrashreporter/10.2.0.1/emas-tbcrashreporter.zip" }
   s.libraries    = 'c++'
   s.vendored_frameworks = 'emas-tbcrashreporter/TBCrashReporter.framework'
   s.dependency   "AliHAProtocol", '>=1.0.5.3'
