@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.vendored_frameworks = "cr-foundation/TBDecodeSDK.framework","cr-foundation/TBScanSDK.framework"
   s.resources = ['cr-foundation/TBScanSDK.framework/*.{bundle}']
-  
+  s.frameworks = ["AVFoundation","AssetsLibrary","CoreMedia","AudioToolbox"]
 end
