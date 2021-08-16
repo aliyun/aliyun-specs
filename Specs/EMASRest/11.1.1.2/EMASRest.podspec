@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.author           = { 'xiangji' => 'xiangji.bxj@alibaba-inc.com' }
   s.source           = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-rest/11.1.1.2/emas-rest.zip" }
   s.vendored_frameworks = "emas-rest/EMASRest.framework"
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
 end
