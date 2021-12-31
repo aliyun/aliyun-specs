@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://www.aliyun.com/"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "度尽" => "yongbin.wyb@alibaba-inc.com" }
-  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_bonekit/1.3.11/ims_bonekit.zip" }
+  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-bonekit/1.3.11/iot-bonekit.zip" }
   s.platform              = :ios, '9.0'
   s.vendored_frameworks = 'IMSBoneKit/IMSBoneKit.framework', 'IMSBoneKit/IMSPackage.framework', 'IMSBoneKit/IMSBoneKitContainerRouter.framework'
   s.requires_arc = true
@@ -13,15 +13,13 @@ Pod::Spec.new do |s|
   s.xcconfig = {
       "OTHER_LDFLAGS" => '$(inherited) -lstdc++'
   }
-  s.resource_bundles = {
-      "BoneKit" => ["IMSBoneKit/IMSBoneKit.framework/**/*.{xib,xcassets,json,lproj}",
-      "IMSBoneKit/IMSBoneKit.framework/**/BoneKit.bundle/*.png"]
-  }
-  s.dependency 'IMSBoneServicePluginKit', '~> 1.0.0'
+  s.resources = ['IMSBoneKit/IMSBoneKit.framework/*.{ttf}','IMSBoneKit/IMSBoneKit.framework/*.{nib,png}']
+  
+  s.dependency 'IMSBoneServicePluginKit', '1.0.0' 
   s.dependency 'IMSBoneServiceCore', '~> 1.1.4'
   s.dependency 'IMSApiClient', '~> 1.6.1'
-  s.dependency 'AlicloudSGMain', '~> 5.4.165'
-  s.dependency 'IMSLog', '~> 1.0.4'
+  #s.dependency 'AlicloudSGMain', '~> 5.4.165'
+  s.dependency 'IMSLog', '~> 1.0.7'
   s.dependency 'IMSAccount', '~> 1.2.1.3'
   s.dependency 'IMSRouter', '~> 1.2.7'
   s.dependency 'IMSBoneUserTrack', '~> 1.0.0'
