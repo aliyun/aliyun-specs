@@ -31,7 +31,8 @@ https://help.aliyun.com/product/28958.html
   LICENSE
   }
   s.author           = { 'aliyun-log' => 'davidzhang.zc@alibaba-inc.com' }
-  s.source           = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/AliyunLogProducer/2.3.10.3/AliyunLogProducer.zip" }
+  # s.source           = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/AliyunLogProducer/2.3.10.4/AliyunLogProducer.zip" }
+  s.source           = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/AliyunLogProducer/2.3.10.4/AliyunLogProducer.zip" }
   s.social_media_url = "http://t.cn/AiRpol8C"
 
   # s.ios.deployment_target = '9.0'
