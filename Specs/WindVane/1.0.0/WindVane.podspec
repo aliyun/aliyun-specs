@@ -1,12 +1,19 @@
 Pod::Spec.new do |s|
+
   s.name         = "WindVane"
   s.version      = "1.0.0"
-  s.summary      = "A native webview jsbridge for iOS."
-  s.homepage     = "https://www.aliyun.com"
-  s.author       = { "wumu" => "wumu.dzq@alibaba-inc.com" }
-  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/cr-foundation/1.0.0/cr-foundation.zip" }
+  s.summary      = "WindVane Framework"
+  s.homepage     = "https://www.aliyun.com/"
+  s.author       = { "xiangji" => "xiangji.bxj@alibaba-inc.com" }
   s.platform     = :ios
-  s.vendored_frameworks = "cr-foundation/WindVane.framework","cr-foundation/WindVaneBasic.framework","cr-foundation/WindVaneCore.framework"
-  s.resources = ['cr-foundation/WindVaneBasic.framework/Resources/*.{bundle}','cr-foundation/WindVaneCore.framework/*.{bundle}']
-  
+  s.source = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/windvane/1.0.0/windvane.zip" } 
+  s.vendored_frameworks = 'windvane/*.framework'
+  s.resources = ["windvane/WindVaneCore.framework/*.{js,bundle}"]
+  s.frameworks = ["CoreTelephony", "Security", "SystemConfiguration"]
+  s.dependency 'TBJSONModel'
+  s.dependency 'AliCrashReporterInterface'
+  s.dependency 'BizErrorReporter4iOS'
+  s.dependency 'AliRemoteDebugInterface'
+  s.dependency 'AliAPMInterface'
+
 end
