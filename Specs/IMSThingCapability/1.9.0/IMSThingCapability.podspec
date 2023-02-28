@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://www.aliyun.com/"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "狄锋" => "difeng.zyl@alibaba-inc.com" }
-  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_thing_capability/1.9.0/ims_thing_capability.zip" }
+  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_device_center/1.9.0/ims_device_center.zip" }
   s.platform              = :ios, '8.0'
   s.vendored_frameworks = 'IMSThingCapability/IMSThingCapability.framework', 'IMSThingCapability/BoneThingCapability.framework', 'IMSThingCapability/LPBSystem.framework','IMSThingCapability/IMSUtils.framework'
   s.frameworks = 'Foundation'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'AKTBJSONModel', '~> 1.0.0'
   s.dependency 'IMSBonePluginKit', '~> 1.1.0'
   s.dependency 'IMSMobileChannel', '~> 1.6.6'
-  s.dependency 'AlicloudSGMain', '~> 5.4.165' #新增安全保镖依赖
+  #s.dependency 'AlicloudSGMain', '~> 5.4.165' #新增安全保镖依赖
   s.dependency 'IMLCoapBase', '~> 1.7.2' # 本地通信通道
   s.dependency 'IMSDeviceGateway', '~> 1.6.6' # 本地通信通道
 
