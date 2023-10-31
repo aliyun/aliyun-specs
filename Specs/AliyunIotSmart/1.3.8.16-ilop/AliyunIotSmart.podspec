@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://www.aliyun.com/"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "佑贤" => "azad.ljj@alibaba-inc.com" }
-  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_lvmedia_base/1.3.8.16-ilop/ims_lvmedia_base.zip" }
+  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-AliyunIotSmart/1.3.8.16-ilop/iot-AliyunIotSmart.zip" }
   s.platform              = :ios, '8.0'
   s.vendored_frameworks = 'AliyunIotSmart/IMSIotSmart.framework'
   s.resources = 'AliyunIotSmart/IMSIotSmart.framework/*.bundle'
