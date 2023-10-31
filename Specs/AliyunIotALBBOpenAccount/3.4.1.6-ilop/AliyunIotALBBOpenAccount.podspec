@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary               = "ALBBOpenAccount"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "佑贤" => "azad.ljj@alibaba-inc.com" }
-  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/ims_lvmedia_base/3.4.1.6-ilop/ims_lvmedia_base.zip" }
+  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/iot-AliyunIotALBBOpenAccount/3.4.1.6-ilop/iot-AliyunIotALBBOpenAccount.zip" }
   s.requires_arc          = true
   s.platform     = :ios, '8.0'
 
