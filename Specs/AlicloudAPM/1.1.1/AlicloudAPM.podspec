@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "emas-alicloudapm/AlicloudAPM.framework"
   s.dependency  'AliHAPerformanceMonitor', '10.0.3.2-NO-UT'
   s.dependency  'AliHADataHubAssembler', '1.0.1.46-downgrade'
-  s.dependency  'AliHAMemoryMonitor', '10.0.3'
+  s.dependency  'AliHAMemoryMonitor'
   s.dependency  'AliHACore',  '~> 10.0.3'
   s.dependency  'AliHASecurity',  '~> 10.0.3'
   s.dependency  'AliCloudNetworkMonitor'
