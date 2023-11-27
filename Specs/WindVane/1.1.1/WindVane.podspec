@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.dependency 'BizErrorReporter4iOS'
   s.dependency 'AliRemoteDebugInterface'
   s.dependency 'AliAPMInterface'
+  s.dependency 'ZCache'
 
 end
