@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'emas-zcache/ZCache.framework'
   s.frameworks = ["CoreTelephony", "Security", "SystemConfiguration"]
   s.libraries = 'z'
+  s.dependency 'ZipArchive'
 
 end
