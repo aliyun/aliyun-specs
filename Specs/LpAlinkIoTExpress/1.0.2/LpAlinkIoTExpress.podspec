@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://www.aliyun.com/"
   s.license               = { :type => 'Copyright', :text => "Alibaba-INC copyright" }
   s.author                = { "kuanju" => "xicai.cxc@alibaba-inc.com" }
-  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/LpAlinkIoTExpress/1.0.1/LpAlinkIoTExpress.zip" }
+  s.source                = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/LpAlinkIoTExpress/1.0.2/LpAlinkIoTExpress.zip" }
   s.platform              = :ios, '9.0'
   s.vendored_frameworks = 'LpAlinkIoTExpress/AlinkIoTExpress.framework'
   s.frameworks = 'Foundation'
