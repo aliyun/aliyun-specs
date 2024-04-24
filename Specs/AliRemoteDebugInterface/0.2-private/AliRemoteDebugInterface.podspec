@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
   s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-aliremotedebuginterface/0.2-private/emas-aliremotedebuginterface.zip" }
   s.ios.deployment_target = '12.0'
-  s.vendored_frameworks = 'emas-aliremotedebuginterface/AliRemoteDebugInterface.xcframework'
+  s.vendored_frameworks = 'emas-aliremotedebuginterface/AliRemoteDebugInterfaceBundle.xcframework'
 end
