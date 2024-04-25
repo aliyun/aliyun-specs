@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
   s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-tbjsonmodel/0.1.15.1-private/emas-tbjsonmodel.zip" }
+  s.xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
   s.vendored_frameworks = 'emas-tbjsonmodel/TBJSONModel.xcframework'
 
 end
