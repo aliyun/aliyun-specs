@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
   s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-alihasecurity/10.0.4-private/emas-alihasecurity.zip" }
   s.vendored_frameworks = 'emas-alihasecurity/AliHASecurity.xcframework'
-  s.xcconfig     = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
+  s.xcconfig     = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC -lc++' }
 
 end
