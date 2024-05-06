@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = "AliHAPerformanceMonitor SDK for iOS."
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "jiangzheng" => "stephen.sj@alibaba-inc.com" }
-  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-alihaperformancemonitor/10.0.3.2-/emas-alihaperformancemonitor.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/emas-alihaperformancemonitor/10.0.3.2-private/emas-alihaperformancemonitor.zip" }
   s.vendored_frameworks = 'emas-alihaperformancemonitor/AliHAPerformanceMonitor.xcframework'
   s.xcconfig     = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
 
