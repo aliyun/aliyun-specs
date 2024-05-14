@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author                = { "EverettLi" => "everettli.ll@alibaba-inc.com" }
   s.source                = { :http => "https://lv-demo.oss-cn-hangzhou.aliyuncs.com/iOS/AliyunIotCommonIlop/1.0.1/AliyunIotCommonIlop.zip" }
   s.platform              = :ios, '11.0'
-  s.vendored_frameworks = 'AliyunIotCommon/IotCommon.framework'
+  s.vendored_frameworks = 'AliyunIotCommonIlop/IotCommon.framework'
   s.frameworks = 'Foundation', 'CFNetwork', 'CoreTelephony'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
 end
