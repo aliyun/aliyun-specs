@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.libraries    = 'resolv'
 
   s.platform     = :ios
-  s.ios.deployment_target = "12.0"
+  s.ios.deployment_target = "10.0"
   s.xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
 
   s.dependency   "AlicloudUTDID"
