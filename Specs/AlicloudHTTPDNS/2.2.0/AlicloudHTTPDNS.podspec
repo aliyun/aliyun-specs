@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.aliyun.com/product/httpdns"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
 
-  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/httpdns/2.2.0/httpdns.zip" }
+  s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/httpdns/2.2.1/httpdns.zip" }
   s.vendored_frameworks = 'httpdns/AlicloudHttpDNS.xcframework'
 
   s.platform     = :ios
