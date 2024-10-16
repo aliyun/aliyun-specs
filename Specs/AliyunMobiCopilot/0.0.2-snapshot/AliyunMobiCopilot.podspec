@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.author       = { "chengwei" => "changwen.tcw@alibaba-inc.com" }
     s.platform     = :ios
     s.ios.deployment_target = '8.0'
-    s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/mobi-copilot/0.0.4-snapshot/mobi-copilot.zip" }
+    s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/mobi-copilot/0.0.5-snapshot/mobi-copilot.zip" }
     s.vendored_frameworks = 'mobi-copilot/AliyunMobiCopilot.framework'
   
   end
