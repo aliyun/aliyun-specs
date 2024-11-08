@@ -24,7 +24,7 @@ HEIF is a new image file format employing HEVC (h.265) image coding for the best
   s.homepage         = 'https://www.libheif.org/'
   s.license          = { :type => 'LGPL' }
   s.author           = { 'struktur AG' => 'opensource@struktur.de' }
-  s.source           = { :git => 'https://github.com/aliyun/heif-decoder-lib.git'}
+  s.source           = { :git => 'https://github.com/aliyun/heif-decoder-lib.git', :commit => 'a207221b359544d6911ac3e2217be2134917baa9' }
 
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
