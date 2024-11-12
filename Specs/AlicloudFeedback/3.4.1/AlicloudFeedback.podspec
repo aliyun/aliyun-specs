@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.frameworks    = [ "CoreTelephony", "SystemConfiguration", "CoreMotion" ]
   s.libraries     = [ "z", "sqlite3.0" ]
   s.xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
-  s.vendored_frameworks = ["feedback/YWFeedbackFMWK.framework", "feedback/BCConnectorBundle.framework", "feedback/BCHybridWebViewFMWK.framework"]
+  s.vendored_frameworks = ["feedback/YWFeedbackFMWK.framework", "feedback/BCConnectorBundle.framework", "feedback/BCHybridWebViewFMWK.framework", "feedback/AmrCodecFMWK.framework"]
   s.resources	  = 'feedback/YWFeedbackBundle.bundle'
 
   s.dependency "AlicloudUtils"
