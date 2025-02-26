@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'push/CloudPushSDK.xcframework'
 
   s.platform     = :ios
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '10.0'
 
   s.frameworks = 'CoreTelephony', 'SystemConfiguration'
   s.libraries = 'sqlite3.0', 'resolv'
