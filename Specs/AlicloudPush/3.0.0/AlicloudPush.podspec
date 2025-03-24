@@ -15,4 +15,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'CoreTelephony', 'SystemConfiguration'
   s.libraries = 'sqlite3.0', 'resolv'
   s.xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
+
+  s.dependency   "AlicloudELS"
 end
