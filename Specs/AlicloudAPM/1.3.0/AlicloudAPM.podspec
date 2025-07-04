@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
 
   s.dependency  'AliHAPerformanceMonitor', '~> 11.0.5'
-  s.dependency  'AliHAMemoryMonitor', '~> 12.0.1'
   s.dependency  'AliHACore', '~> 11.0.6'
   s.dependency  'AliCloudNetworkMonitor', '~> 2.0.3'
   s.dependency  'AlicloudUTDID'
