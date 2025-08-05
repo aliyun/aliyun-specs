@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   s.default_subspecs = 'none'
 
   s.subspec "AlicloudApmMemAlloc" do |ss|
-    ss.vendored_frameworks= "AlicloudApmAll/AlicloudApmMemAlloc/AlicloudApmMemAlloc.xcframework"
+    ss.vendored_frameworks= "AlicloudApmAll/AlicloudApmMemAlloc.xcframework"
   end
 
   s.subspec "AlicloudApmMemLeak" do |ss|
-    ss.vendored_frameworks= "AlicloudApmAll/AlicloudApmMemLeak/AlicloudApmMemLeak.xcframework"
+    ss.vendored_frameworks= "AlicloudApmAll/AlicloudApmMemLeak.xcframework"
   end
 
 end
