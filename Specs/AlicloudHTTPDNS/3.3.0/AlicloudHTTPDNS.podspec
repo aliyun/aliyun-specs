@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.public_header_files = [
     "AlicloudHttpDNS/AlicloudHttpDNS.h",
     "AlicloudHttpDNS/HttpdnsService.h",
-    "AlicloudHttpDNS/Model/HttpDnsResult.h",
+    "AlicloudHttpDNS/Model/HttpdnsResult.h",
     "AlicloudHttpDNS/Model/HttpdnsRequest.h",
     "AlicloudHttpDNS/Log/HttpdnsLog.h",
     "AlicloudHttpDNS/Log/HttpdnsLoggerProtocol.h",
