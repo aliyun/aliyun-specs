@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AlicloudHTTPDNS"
-  s.version      = "3.3.0-src"
+  s.version      = "3.3.0"
   s.summary      = "Aliyun Mobile Service HTTPDNS iOS SDK (source distribution)."
   s.description  = <<-DESC
     HTTPDNS iOS SDK 源码分发版本，提供通过 HTTP(S) 进行域名解析、
