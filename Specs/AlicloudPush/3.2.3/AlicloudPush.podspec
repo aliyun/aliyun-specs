@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.libraries = 'sqlite3.0', 'resolv'
   s.xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
 
-  s.dependency   "AlicloudELS", '1.0.3'
+  s.dependency "AlicloudELS", '~> 1.0.3'
   s.dependency   "AlicloudUTDID", "~> 1.0"
 end
